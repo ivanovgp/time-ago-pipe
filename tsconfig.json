@@ -8,7 +8,12 @@
     "experimentalDecorators": true,
     "declaration": true,
     "removeComments": false,
-    "noImplicitAny": false
+    "lib": [
+        "es2015",
+        "dom"
+    ],
+    "noImplicitAny": false,
+    "outDir": "es5"
   },
   "angularCompilerOptions": {
 	"genDir": "compiled"
@@ -21,3 +26,4 @@
     "node_modules"
   ]
 }
+
